@@ -17,10 +17,5 @@
 import PackageDescription
 
 let package = Package(
-    name: "APNS",
-    targets: [],
-    dependencies: [
-        .Package(url: "https://github.com/alexeyxo/protobuf-swift.git",
-                 majorVersion: 3),
-        ]
+    name: "APNS"
 )
